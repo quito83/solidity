@@ -46,7 +46,8 @@ export const CRYPTODEVS_DAO_ABI = [
       "type": "function"
     }
   ];
-export const CRYPTODEVS_NFT_ABI = [{
+export const CRYPTODEVS_NFT_ABI = [
+  {
     "inputs": [
       {
         "internalType": "string",
@@ -626,4 +627,6 @@ export const CRYPTODEVS_NFT_ABI = [{
   {
     "stateMutability": "payable",
     "type": "receive"
-  }];
+  }
+
+];
